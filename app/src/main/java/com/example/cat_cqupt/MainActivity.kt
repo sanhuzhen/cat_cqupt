@@ -7,7 +7,7 @@ import com.example.cat_cqupt.Adapter.ImagePaperAdapter
 import kotlin.math.abs
 
 class MainActivity : AppCompatActivity() {
-    private val imageList = listOf<Int>(R.drawable.img_3,R.drawable.img_2,R.drawable.img_1)
+    private val imageList = listOf<Int>(R.drawable.img_2,R.drawable.img_3,R.drawable.img_1)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
