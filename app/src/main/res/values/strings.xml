@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">cat_cqupt</string>
     <string name="welcome">Welcome to cattery</string>
+    <string name="map">重邮地图</string>
+    <string name="message">流浪猫信息</string>
+    <string name="community">流浪猫社区</string>
+    <string name="work">志愿活动</string>
 </resources>

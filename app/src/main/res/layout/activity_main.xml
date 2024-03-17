@@ -16,7 +16,8 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/baseline_bubble_chart_24"/>
+            android:src="@drawable/baseline_bubble_chart_24"
+            android:importantForAccessibility="no" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -37,6 +38,45 @@
         android:layout_gravity="center_horizontal"
         android:layout_width="350dp"
         android:layout_height="150dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_map"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/map"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_message"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/message"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_community"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/community"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_work"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/work"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
 
 
 
