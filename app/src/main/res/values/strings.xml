@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">cat_cqupt</string>
+    <string name="welcome">Welcome to cattery</string>
 </resources>
