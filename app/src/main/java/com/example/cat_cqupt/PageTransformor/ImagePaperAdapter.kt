@@ -33,12 +33,6 @@ class ImagePaperAdapter(private val context: Context, val imageList: List<Int>) 
         val imageView = ImageView(context)
         imageView.setImageResource(imageList[position])
         container.addView(imageView)
-        imageView.setOnClickListener {
-            val intent = Intent(Intent.ACTION_VIEW)
-            intent.data = Uri.parse("http://www.cqupt.edu.cn/")
-            Toast.makeText(context, "jj", Toast.LENGTH_LONG).show()
-
-        }
         return imageView
     }
 
