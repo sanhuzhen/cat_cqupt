@@ -13,7 +13,7 @@ import androidx.core.os.postDelayed
  */
 @SuppressLint("CustomSplashScreen")
 class SplashActivity: AppCompatActivity() {
-    private val SPLASH_DELAY_TIME = 2000L
+    private val SPLASH_DELAY_TIME = 1000L
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
