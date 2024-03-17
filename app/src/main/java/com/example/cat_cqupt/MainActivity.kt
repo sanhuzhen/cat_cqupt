@@ -20,6 +20,6 @@ class MainActivity : AppCompatActivity() {
             val normalizedPosition = abs(abs(position) - 1)
             page.scaleX = normalizedPosition / 2 + 0.5f
             page.scaleY = normalizedPosition /2 + 0.5f
-        }
+        }//实现滑动效果，避免太僵硬
     }
 }
