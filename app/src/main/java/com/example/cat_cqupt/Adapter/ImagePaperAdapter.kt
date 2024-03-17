@@ -1,17 +1,10 @@
-package com.example.cat_cqupt.PageTransformor
+package com.example.cat_cqupt.Adapter
 
 import android.content.Context
-import android.content.Intent
-import android.net.Uri
-import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import android.widget.Toast
 import androidx.viewpager.widget.PagerAdapter
-import com.example.cat_cqupt.MainActivity
-import com.example.cat_cqupt.R
-import com.example.cat_cqupt.R.*
 
 /**
  * TODO:建立一个适配器用于展示多张图片

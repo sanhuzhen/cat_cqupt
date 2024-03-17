@@ -3,7 +3,7 @@ package com.example.cat_cqupt
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.viewpager.widget.ViewPager
-import com.example.cat_cqupt.PageTransformor.ImagePaperAdapter
+import com.example.cat_cqupt.Adapter.ImagePaperAdapter
 import kotlin.math.abs
 
 class MainActivity : AppCompatActivity() {
