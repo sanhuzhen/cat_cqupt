@@ -14,9 +14,9 @@ import com.example.cat_cqupt.R
 import com.example.cat_cqupt.R.*
 
 /**
- * 建立一个适配器用于展示多张图片
+ * TODO:建立一个适配器用于展示多张图片
  */
-class ImagePaperAdapter(private val context: Context, val imageList: List<Int>) : PagerAdapter() {
+class ImagePaperAdapter(private val context: Context, private val imageList: List<Int>) : PagerAdapter() {
 
     //返回想要展示的页面数
     override fun getCount(): Int {
