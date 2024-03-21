@@ -18,6 +18,7 @@ class SplashActivity: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
         delaySplash()
+//        finish()
     }
 
     /**
@@ -28,5 +29,12 @@ class SplashActivity: AppCompatActivity() {
             val intent = Intent(this,MainActivity::class.java)
             startActivity(intent)
         },SPLASH_DELAY_TIME)
+
+    }
+
+    //结束
+    override fun onStop() {
+        super.onStop()
+        finish()
     }
 }

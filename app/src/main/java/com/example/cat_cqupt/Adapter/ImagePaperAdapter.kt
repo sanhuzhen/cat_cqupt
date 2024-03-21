@@ -29,7 +29,6 @@ class ImagePaperAdapter(private val context: Context, private val imageList: Lis
         return imageView
     }
 
-
     //用于销毁页面
     override fun destroyItem(container: ViewGroup, position: Int, `object`: Any) {
         container.removeView(`object` as View)
