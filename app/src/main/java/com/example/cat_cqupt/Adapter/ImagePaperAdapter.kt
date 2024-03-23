@@ -1,6 +1,7 @@
 package com.example.cat_cqupt.Adapter
 
 import android.content.Context
+import android.database.DataSetObserver
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
@@ -21,10 +22,16 @@ class ImagePaperAdapter(private val context: Context, private val imageList: Lis
         return view == `object`
     }
 
+
+    override fun getItemPosition(`object`: Any): Int {
+        return POSITION_NONE
+    }//实现循环，让viewPaper以为有无数个页面
+
     //实例化imageview
     override fun instantiateItem(container: ViewGroup, position: Int): Any {
         val imageView = ImageView(context)
         imageView.setImageResource(imageList[position])
+
         container.addView(imageView)
         return imageView
     }
