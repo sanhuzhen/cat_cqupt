@@ -4,9 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.viewpager.widget.ViewPager
 import com.example.cat_cqupt.Adapter.ImagePaperAdapter
+import com.example.cat_cqupt.base.BaseActivity
 import kotlin.math.abs
 
-class MainActivity : AppCompatActivity() {
+class MainActivity: BaseActivity() {
     private val imageList = listOf<Int>(R.drawable.img_2,R.drawable.img_3,R.drawable.img_1)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

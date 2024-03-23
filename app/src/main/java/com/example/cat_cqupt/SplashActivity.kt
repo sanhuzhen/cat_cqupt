@@ -7,12 +7,13 @@ import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.os.postDelayed
+import com.example.cat_cqupt.base.BaseActivity
 
 /**
  * TODO:Splash开机动画
  */
 @SuppressLint("CustomSplashScreen")
-class SplashActivity: AppCompatActivity() {
+class SplashActivity: BaseActivity() {
     private val SPLASH_DELAY_TIME = 1000L
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
